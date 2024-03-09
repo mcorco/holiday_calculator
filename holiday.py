@@ -66,7 +66,7 @@ def plane_cost(city):
     DEFAULT_PRICE = 300.55  # Default price if city not found
     return CITY_PRICES.get(city, DEFAULT_PRICE)
 
-# Function to calculate the car rental cost based on total of rental days
+# Function to calculate the car rental cost based on total of days
 def car_rental_cost(rental_days):
     # Predefined daily car rental rate
     DAILY_CAR_RENTAL_RATE = 50  # Assuming £50 per day

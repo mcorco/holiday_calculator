@@ -42,7 +42,7 @@ def get_rental_days():
         else:
             print("Invalid input. Number of rental days cannot be negative.")
 
-# Function to calculate the hotel cost based on the number of nights
+# Function to calculate the hotel cost based on number of nights
 def hotel_cost(num_nights):
     # Predefined hotel nightly rate
     HOTEL_NIGHTLY_RATE = 100  # Assuming £100 per night
